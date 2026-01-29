@@ -14,7 +14,11 @@ Learn how to build AI applications that combine unstructured document knowledge 
 
     ---
 
-    Organizations have valuable knowledge spread across documents (PDFs, policies, manuals) and structured systems (databases, data warehouses). By connecting these sources through AI, users can get unified answers from a single conversational interface.
+    Organizations have valuable knowledge that's hard to access:
+
+    - **Documents** like PDFs, policies, and manuals contain institutional knowledge
+    - **Structured systems** like databases and data warehouses hold business data
+    - **Users need unified answers** from a single conversational interface
 
 -   :material-rocket-launch:{ .lg .middle } **The Solution**
 

@@ -1,3 +1,13 @@
 .md-header__title {
   font-size: 0.8rem;
 }
+
+/* Reduce space after h1 */
+.md-content h1 {
+  margin-bottom: 0.5em;
+}
+
+/* Reduce space around grid cards */
+.grid.cards {
+  margin-top: 0.5em;
+}
