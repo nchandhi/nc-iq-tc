@@ -1,6 +1,6 @@
 # Module 1: Environment Setup
 
-Before building AI solutions, you need a foundation of Azure services that work together. **Infrastructure as Code (IaC)** ensures every participant gets identical, reproducible environments — eliminating "works on my machine" problems and enabling rapid iteration.
+Before building AI solutions, you need a foundation of Azure services that work together. **Infrastructure as Code (IaC)** ensures every participant gets identical, reproducible environments — making setup fast and consistent across the team.
 
 ## What Gets Deployed
 

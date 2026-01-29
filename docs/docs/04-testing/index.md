@@ -1,12 +1,12 @@
 # Module 4: Evaluations
 
-Building an AI agent is only half the work. Before deploying to production, you need **evidence** that it:
+Building an AI agent is the first step. Before deploying to production, you want **confidence** that it:
 
-1. **Provides accurate, relevant answers** — not hallucinations
-2. **Stays safe** — resists jailbreaks and harmful content generation
-3. **Meets quality standards** — consistent performance across queries
+1. **Provides accurate, relevant answers** — grounded in your data
+2. **Maintains appropriate boundaries** — responds professionally to all inputs
+3. **Meets quality standards** — delivers consistent performance across queries
 
-Azure AI Evaluation automates this testing with industry-standard metrics.
+Azure AI Evaluation automates this validation with industry-standard metrics.
 
 ## Evaluation Types
 
@@ -25,10 +25,10 @@ Azure AI Evaluation automates this testing with industry-standard metrics.
 
 ## Safety Testing
 
-The adversarial simulator attempts to make your agent:
+The adversarial simulator validates that your agent:
 
-- Generate harmful or offensive content
-- Leak system prompts or PII
-- Bypass safety guidelines
+- Maintains professional, helpful responses
+- Protects system configuration and user privacy
+- Follows content guidelines consistently
 
-A well-configured agent should resist these attacks.
+A well-configured agent handles challenging inputs gracefully.

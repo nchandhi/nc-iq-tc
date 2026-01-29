@@ -2,9 +2,9 @@
 
 Build an AI-powered assistant that combines **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
 
-## The Challenge
+## The Opportunity
 
-Organizations struggle to unlock value from data scattered across documents (PDFs, policies, manuals) and structured systems (databases, data warehouses). Traditional search fails to connect these silos, forcing users to manually hunt through multiple systems.
+Organizations have valuable knowledge spread across documents (PDFs, policies, manuals) and structured systems (databases, data warehouses). By connecting these sources through AI, users can get unified answers from a single conversational interface.
 
 ## The Solution
 
