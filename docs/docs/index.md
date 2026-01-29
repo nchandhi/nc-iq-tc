@@ -4,8 +4,6 @@ hide:
   - toc
 ---
 
-# Introduction
-
 Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries. Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly, then customize it for your industry use case.
 
 ## The Opportunity
