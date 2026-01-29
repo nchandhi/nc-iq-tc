@@ -1,3 +1,5 @@
 title: "Foundry IQ & Fabric IQ Lab"
 description: "A 50-minute hands-on lab for building AI solutions"
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
