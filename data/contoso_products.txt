@@ -1,0 +1,38 @@
+# Contoso Products Catalog
+
+## Overview
+Contoso is a leading provider of enterprise solutions, offering a wide range of products designed to meet modern business needs.
+
+## Product Categories
+
+### Cloud Services
+- **Contoso Cloud Platform**: Enterprise-grade cloud infrastructure with 99.99% uptime SLA
+- **Contoso Data Lake**: Scalable data storage solution supporting petabytes of data
+- **Contoso AI Services**: Pre-built AI models for common business scenarios
+
+### Software Solutions
+- **Contoso ERP**: Comprehensive enterprise resource planning suite
+- **Contoso CRM**: Customer relationship management with AI-powered insights
+- **Contoso Analytics**: Business intelligence and reporting platform
+
+### Hardware
+- **Contoso Server Pro**: High-performance servers for enterprise workloads
+- **Contoso Network Switch**: Enterprise networking equipment
+- **Contoso Storage Array**: High-availability storage systems
+
+## Pricing
+
+All products are available with flexible licensing options:
+- Monthly subscription
+- Annual commitment (15% discount)
+- Enterprise agreement (custom pricing)
+
+Contact sales@contoso.com for detailed pricing information.
+
+## Support
+
+All products include:
+- 24/7 technical support
+- Online documentation and tutorials
+- Community forums
+- Professional services available

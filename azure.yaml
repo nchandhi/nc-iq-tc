@@ -1,0 +1,9 @@
+name: nc-iq-tc
+metadata:
+  template: foundry-iq-fabric-iq-lab
+
+infra:
+  provider: bicep
+  path: infra
+
+services: {}

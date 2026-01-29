@@ -1,0 +1,55 @@
+# Contoso Policies
+
+## Return Policy
+
+### General Guidelines
+- All products may be returned within 30 days of purchase
+- Products must be in original condition with all packaging
+- Refunds are processed within 5-7 business days
+
+### Exceptions
+- Custom-configured hardware: 14-day return window
+- Software licenses: Non-refundable once activated
+- Professional services: Non-refundable
+
+### Process
+1. Contact support at returns@contoso.com
+2. Receive Return Merchandise Authorization (RMA) number
+3. Ship product with RMA number clearly marked
+4. Refund issued upon inspection
+
+## Privacy Policy
+
+### Data Collection
+Contoso collects only necessary information to provide services:
+- Contact information (name, email, phone)
+- Billing information (processed securely)
+- Usage data (anonymized for product improvement)
+
+### Data Protection
+- All data encrypted at rest and in transit
+- GDPR and CCPA compliant
+- Regular security audits conducted
+- Data retained only as long as necessary
+
+### Your Rights
+- Request access to your data
+- Request deletion of your data
+- Opt-out of marketing communications
+- Data portability upon request
+
+## Support Policy
+
+### Response Times
+- Critical issues: 1 hour response
+- High priority: 4 hour response
+- Normal priority: 8 hour response
+- Low priority: 24 hour response
+
+### Escalation Path
+1. Initial support ticket
+2. Senior support engineer
+3. Technical account manager
+4. Executive escalation
+
+Contact: support@contoso.com or 1-800-CONTOSO

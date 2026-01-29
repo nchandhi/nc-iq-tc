@@ -1,0 +1,14 @@
+{
+  "ai": {
+    "aiServices": "ais-",
+    "aiFoundryProject": "aip-",
+    "aiSearch": "srch-"
+  },
+  "storage": {
+    "storageAccount": "st"
+  },
+  "managementGovernance": {
+    "logAnalyticsWorkspace": "log-",
+    "applicationInsights": "appi-"
+  }
+}
