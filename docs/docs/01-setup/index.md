@@ -6,13 +6,11 @@ Before building AI solutions, you need a foundation of Azure services that work 
 
 The `azd up` command provisions a complete AI development environment:
 
+![Architecture Diagram](../images/architecture.png)
+
 | Resource | Purpose |
 |----------|---------|
 | **Azure AI Services** | Hosts GPT-4o and embedding models via Foundry IQ |
 | **Azure AI Search** | Vector database for semantic document retrieval |
 | **Storage Account** | Stores documents and agent artifacts |
 | **Application Insights** | Traces agent calls for debugging and monitoring |
-
-## Architecture
-
-![Architecture Diagram](../images/architecture.png)
