@@ -1,8 +1,8 @@
 # Module 2: Foundry IQ - Create AI Agent
 
-Large Language Models excel at reasoning and language, but they perform best when grounded in **your actual data**. **RAG (Retrieval-Augmented Generation)** connects the model to your documents — ensuring accurate, citable answers based on real content.
+Large Language Models excel at reasoning and language, and they perform best when grounded in **your actual data**. **RAG (Retrieval-Augmented Generation)** connects the model to your documents — enabling AI applications that provide accurate, citable answers based on real content.
 
-**Foundry IQ** is Microsoft's platform for building these intelligent agents. It handles:
+**Foundry IQ** is Microsoft's platform for building these intelligent AI applications. It handles:
 
 - **Tool orchestration** — agents decide when to search, query, or reason
 - **Context management** — conversation history and retrieved content

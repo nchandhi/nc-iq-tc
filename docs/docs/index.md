@@ -1,6 +1,6 @@
 # Foundry IQ & Fabric IQ Lab
 
-Build an AI-powered assistant that combines **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
+Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
 
 ## The Opportunity
 
