@@ -1,6 +1,6 @@
-# Solution Accelerators: Foundry IQ & Fabric IQ
+# Solution Accelerators: Foundry IQ + Fabric IQ
 
-**Hands-on Lab** | Build AI applications that accelerate customer engagements
+**Hands-on Lab** | Build AI applications faster and customize them for your scenario using solution accelerators
 
 ---
 
