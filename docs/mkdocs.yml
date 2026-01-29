@@ -19,7 +19,9 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
-  - Introduction: index.md
+  - Introduction:
+    - Overview: index.md
+    - Get Started: get-started.md
   - 01 Setup:
     - Overview: 01-setup/index.md
     - Deploy Infrastructure: 01-setup/deploy.md
