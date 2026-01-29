@@ -1,6 +1,23 @@
 # Connect & Query Data
 
-## Configure Fabric Connection
+## Step 1: Create the Ontology
+
+First, define your business ontology — the semantic model that helps AI understand your data:
+
+```bash
+python 04a_create_ontology.py
+```
+
+This creates `data/contoso_ontology.json` with:
+
+- **Entities**: Products, Customers, Orders, OrderLines
+- **Relationships**: Customer → Orders → Products
+- **Business Rules**: Premium Customer, Gross Margin, Low Stock
+- **Actions**: GetTopProducts, GetSalesSummary, etc.
+
+Review the output to see how the ontology maps business concepts to data.
+
+## Step 2: Configure Fabric Connection
 
 Get your workspace ID from the Fabric portal URL:
 ```
@@ -14,7 +31,7 @@ azd env set FABRIC_WORKSPACE_ID "your-workspace-id"
 azd env set FABRIC_SEMANTIC_MODEL "SalesData"
 ```
 
-## Create Fabric-Enabled Agent
+## Step 3: Create Fabric-Enabled Agent
 
 ```bash
 python 04_create_fabric_agent.py
@@ -25,9 +42,9 @@ This creates an agent with **two tools**:
 | Tool | Purpose |
 |------|---------|
 | Azure AI Search | Document retrieval |
-| Fabric IQ | Structured data queries |
+| Fabric IQ | Structured data queries via ontology |
 
-## Test Combined Queries
+## Step 4: Test Combined Queries
 
 ```bash
 python 05_test_fabric_agent.py

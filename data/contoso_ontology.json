@@ -1,0 +1,368 @@
+{
+  "name": "ContosoRetail",
+  "description": "Semantic model for Contoso Retail business data - enables natural language queries over sales, inventory, and customer data",
+  "entities": [
+    {
+      "name": "Product",
+      "description": "Items available for sale in the Contoso catalog",
+      "sourceTable": "dbo.Products",
+      "attributes": [
+        {
+          "name": "ProductID",
+          "data_type": "int",
+          "description": "Unique product identifier",
+          "is_key": true,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "ProductName",
+          "data_type": "string",
+          "description": "Display name of the product",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "Category",
+          "data_type": "string",
+          "description": "Product category (Electronics, Clothing, etc.)",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "SubCategory",
+          "data_type": "string",
+          "description": "Product sub-category",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "UnitPrice",
+          "data_type": "decimal",
+          "description": "Current selling price",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "$#,##0.00"
+        },
+        {
+          "name": "UnitCost",
+          "data_type": "decimal",
+          "description": "Cost to acquire/produce",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "$#,##0.00"
+        },
+        {
+          "name": "StockLevel",
+          "data_type": "int",
+          "description": "Current inventory quantity",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": null
+        },
+        {
+          "name": "ReorderPoint",
+          "data_type": "int",
+          "description": "Minimum stock before reorder",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "IsActive",
+          "data_type": "boolean",
+          "description": "Whether product is currently sold",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "description": "Customers who have made purchases",
+      "sourceTable": "dbo.Customers",
+      "attributes": [
+        {
+          "name": "CustomerID",
+          "data_type": "int",
+          "description": "Unique customer identifier",
+          "is_key": true,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "CustomerName",
+          "data_type": "string",
+          "description": "Full name of the customer",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "Email",
+          "data_type": "string",
+          "description": "Contact email address",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "Segment",
+          "data_type": "string",
+          "description": "Customer segment (Consumer, Corporate, Small Business)",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "Region",
+          "data_type": "string",
+          "description": "Geographic region",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "JoinDate",
+          "data_type": "date",
+          "description": "Date customer first registered",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "LifetimeValue",
+          "data_type": "decimal",
+          "description": "Total historical spend",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "$#,##0.00"
+        }
+      ]
+    },
+    {
+      "name": "Order",
+      "description": "Customer purchase transactions",
+      "sourceTable": "dbo.Orders",
+      "attributes": [
+        {
+          "name": "OrderID",
+          "data_type": "int",
+          "description": "Unique order identifier",
+          "is_key": true,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "CustomerID",
+          "data_type": "int",
+          "description": "Reference to customer",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "OrderDate",
+          "data_type": "date",
+          "description": "Date order was placed",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "ShipDate",
+          "data_type": "date",
+          "description": "Date order was shipped",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "Status",
+          "data_type": "string",
+          "description": "Order status (Pending, Shipped, Delivered, Returned)",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "TotalAmount",
+          "data_type": "decimal",
+          "description": "Total order value",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "$#,##0.00"
+        },
+        {
+          "name": "ShippingMethod",
+          "data_type": "string",
+          "description": "Delivery method selected",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        }
+      ]
+    },
+    {
+      "name": "OrderLine",
+      "description": "Individual line items within an order",
+      "sourceTable": "dbo.OrderDetails",
+      "attributes": [
+        {
+          "name": "OrderDetailID",
+          "data_type": "int",
+          "description": "Unique line item identifier",
+          "is_key": true,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "OrderID",
+          "data_type": "int",
+          "description": "Reference to parent order",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "ProductID",
+          "data_type": "int",
+          "description": "Reference to product",
+          "is_key": false,
+          "is_measure": false,
+          "format_string": null
+        },
+        {
+          "name": "Quantity",
+          "data_type": "int",
+          "description": "Number of units ordered",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": null
+        },
+        {
+          "name": "UnitPrice",
+          "data_type": "decimal",
+          "description": "Price per unit at time of sale",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "$#,##0.00"
+        },
+        {
+          "name": "Discount",
+          "data_type": "decimal",
+          "description": "Discount percentage applied",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "0.0%"
+        },
+        {
+          "name": "LineTotal",
+          "data_type": "decimal",
+          "description": "Quantity * UnitPrice * (1 - Discount)",
+          "is_key": false,
+          "is_measure": true,
+          "format_string": "$#,##0.00"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "name": "CustomerOrders",
+      "from_entity": "Customer",
+      "to_entity": "Order",
+      "cardinality": "one-to-many",
+      "description": "A customer can have many orders"
+    },
+    {
+      "name": "OrderLines",
+      "from_entity": "Order",
+      "to_entity": "OrderLine",
+      "cardinality": "one-to-many",
+      "description": "An order contains multiple line items"
+    },
+    {
+      "name": "ProductOrderLines",
+      "from_entity": "Product",
+      "to_entity": "OrderLine",
+      "cardinality": "one-to-many",
+      "description": "A product can appear in many order lines"
+    }
+  ],
+  "businessRules": [
+    {
+      "name": "PremiumCustomer",
+      "entity": "Customer",
+      "expression": "LifetimeValue >= 10000",
+      "description": "Customers with lifetime value >= $10,000 are Premium tier"
+    },
+    {
+      "name": "GrossMargin",
+      "entity": "Product",
+      "expression": "(UnitPrice - UnitCost) / UnitPrice",
+      "description": "Profit margin percentage for a product"
+    },
+    {
+      "name": "LowStock",
+      "entity": "Product",
+      "expression": "StockLevel <= ReorderPoint",
+      "description": "Product needs to be reordered"
+    },
+    {
+      "name": "OrderFulfillmentDays",
+      "entity": "Order",
+      "expression": "DATEDIFF(day, OrderDate, ShipDate)",
+      "description": "Days between order placement and shipment"
+    },
+    {
+      "name": "QuarterlySales",
+      "entity": "Order",
+      "expression": "SUM(TotalAmount) WHERE DATEPART(quarter, OrderDate) = @quarter",
+      "description": "Total sales for a given quarter"
+    }
+  ],
+  "actions": [
+    {
+      "name": "GetTopProducts",
+      "entity": "Product",
+      "description": "Retrieve best-selling products by revenue or quantity",
+      "parameters": [
+        "metric (revenue|quantity)",
+        "limit",
+        "time_period"
+      ]
+    },
+    {
+      "name": "GetCustomerOrders",
+      "entity": "Customer",
+      "description": "Retrieve order history for a specific customer",
+      "parameters": [
+        "customer_id",
+        "date_range"
+      ]
+    },
+    {
+      "name": "GetSalesSummary",
+      "entity": "Order",
+      "description": "Aggregate sales metrics by time period",
+      "parameters": [
+        "group_by (day|week|month|quarter)",
+        "date_range"
+      ]
+    },
+    {
+      "name": "GetInventoryStatus",
+      "entity": "Product",
+      "description": "Check stock levels and identify reorder needs",
+      "parameters": [
+        "category",
+        "include_inactive"
+      ]
+    }
+  ]
+}
