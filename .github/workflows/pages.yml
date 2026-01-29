@@ -21,19 +21,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install MkDocs
+        run: pip install mkdocs-material
+      
+      - name: Build site
+        run: cd docs && mkdocs build --site-dir ../site
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          enablement: true
-      
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./docs
-          destination: ./_site
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
   deploy:
     environment:
