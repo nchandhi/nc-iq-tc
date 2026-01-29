@@ -1,6 +1,6 @@
 # Module 5: Cleanup
 
-⏱️ **5 minutes** · Delete Azure resources to avoid charges
+Delete your Azure resources when you're done to manage costs.
 
 ## Delete All Resources
 
