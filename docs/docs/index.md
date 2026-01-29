@@ -6,27 +6,25 @@ hide:
 
 # Introduction
 
-Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries.
-Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly, then customize it for your industry use case.
+Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data. Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly.
 
-## The Opportunity
+<div class="grid cards" markdown>
 
-Organizations have valuable knowledge spread across documents (PDFs, policies, manuals) and structured systems (databases, data warehouses). By connecting these sources through AI, users can get unified answers from a single conversational interface.
+-   :material-lightbulb-on:{ .lg .middle } **The Opportunity**
 
-## The Solution
+    ---
 
-**Foundry IQ** and **Fabric IQ** solve this by enabling an intelligent agent that:
+    Organizations have valuable knowledge in documents and structured systems. AI enables unified answers from a single conversational interface.
 
-- **Creates knowledge bases** from documents with agentic retrieval (plan, iterate, reflect)
-- **Defines business ontology** to understand entities, relationships, and rules
-- **Queries data** using natural language over both documents and structured data
-- **Combines both** to answer complex business questions
+-   :material-rocket-launch:{ .lg .middle } **The Solution**
 
-## Prerequisites
+    ---
 
-- Azure subscription with Contributor access
-- [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
-- [Python 3.10+](https://www.python.org/downloads/)
+    **Foundry IQ** creates knowledge bases with agentic retrieval. **Fabric IQ** defines ontology for NL→SQL queries. Together they answer complex questions.
+
+</div>
+
+**Prerequisites:** Azure subscription • [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd) • [Python 3.10+](https://www.python.org/downloads/)
 
 ## Get Started Now
 
