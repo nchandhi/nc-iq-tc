@@ -49,3 +49,15 @@
 .grid.cards > ul > li {
   font-size: 0.85rem;
 }
+
+/* Button row */
+.button-row {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+.button-row a {
+  display: inline-block;
+}
