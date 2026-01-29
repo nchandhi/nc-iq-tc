@@ -4,7 +4,8 @@ hide:
   - toc
 ---
 
-Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries. Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly, then customize it for your industry use case.
+Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries. 
+Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly, then customize it for your industry use case.
 
 ## The Opportunity
 
@@ -23,8 +24,9 @@ Organizations have valuable knowledge spread across documents (PDFs, policies, m
 
 **Prerequisites:** Azure subscription with Contributor access, [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd), [Python 3.10+](https://www.python.org/downloads/)
 
-| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nchandhi/nc-iq-tc) | [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/nchandhi/nc-iq-tc) | [![Open in VS Code (Web)](https://img.shields.io/static/v1?style=for-the-badge&label=VS%20Code%20(Web)&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/github/nchandhi/nc-iq-tc) |
+|   |   |   |
 |:---:|:---:|:---:|
+| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nchandhi/nc-iq-tc) | [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/nchandhi/nc-iq-tc) | [![Open in VS Code (Web)](https://img.shields.io/static/v1?style=for-the-badge&label=VS%20Code%20(Web)&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/github/nchandhi/nc-iq-tc) |
 
 [**Start Lab →**](01-setup/index.md)
 
