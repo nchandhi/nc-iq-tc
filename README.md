@@ -1,11 +1,13 @@
 # Foundry IQ & Fabric IQ Lab
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nchandhi/nc-iq-tc)
-[![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/nchandhi/nc-iq-tc)
-
 **🔗 Lab Guide: [https://nchandhi.github.io/nc-iq-tc](https://nchandhi.github.io/nc-iq-tc)**
 
 A 50-minute hands-on lab for building AI solutions with Microsoft Foundry IQ and Fabric IQ.
+
+## Getting Started
+
+| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nchandhi/nc-iq-tc) | [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/nchandhi/nc-iq-tc) | [![Open in VS Code Web](https://img.shields.io/static/v1?style=for-the-badge&label=VS%20Code%20(Web)&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/github/nchandhi/nc-iq-tc) |
+|---|---|---|
 
 ## Overview
 
