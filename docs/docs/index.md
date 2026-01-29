@@ -1,5 +1,9 @@
 # Solution Accelerators: Foundry IQ & Fabric IQ
 
+**Hands-on Lab** | Build AI applications that accelerate customer engagements
+
+---
+
 Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
 
 ## The Opportunity
