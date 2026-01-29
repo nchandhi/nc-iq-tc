@@ -1,6 +1,6 @@
-# Build Faster with Solution Accelerators – Foundry IQ + Fabric IQ (Hands-On Session)
+!!! abstract "Hands-On Lab"
 
-Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
+Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — using knowledge bases, ontology, and natural language queries.
 
 ## The Opportunity
 
