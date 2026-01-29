@@ -5,7 +5,7 @@ hide:
 title: ""
 ---
 
-Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — using knowledge bases, ontology, and natural language queries.
+Build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries.
 
 ## The Opportunity
 
