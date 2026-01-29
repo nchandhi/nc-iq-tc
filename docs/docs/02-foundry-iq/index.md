@@ -1,21 +1,35 @@
 # Module 2: Foundry IQ - Create AI Agent
 
-⏱️ **15 minutes** · Upload documents and create an intelligent AI agent
+Large Language Models are powerful, but they **hallucinate** when asked about data they weren't trained on. **RAG (Retrieval-Augmented Generation)** solves this by grounding the model's responses in your actual documents — ensuring accurate, citable answers.
 
-## Overview
+**Foundry IQ** is Microsoft's platform for building these intelligent agents. It handles:
 
-In this module you will:
+- **Tool orchestration** — agents decide when to search, query, or reason
+- **Context management** — conversation history and retrieved content
+- **Enterprise security** — Azure AD, RBAC, and data residency
 
-- Upload documents to Azure AI Search
-- Create an AI agent with RAG capabilities
-- Test the agent interactively
+## How It Works
 
-## What is Foundry IQ?
+```
+User Question
+     │
+     ▼
+┌─────────────┐     ┌─────────────┐
+│  AI Agent   │────▶│  AI Search  │
+│  (GPT-4o)   │◀────│  (Vectors)  │
+└─────────────┘     └─────────────┘
+     │
+     ▼
+Grounded Answer + Citations
+```
 
-**Foundry IQ** is Microsoft's platform for building enterprise AI agents:
+1. User asks a question
+2. Agent searches documents using vector similarity
+3. Relevant chunks are passed to GPT-4o as context
+4. Model generates answer grounded in retrieved content
 
-| Feature | Description |
-|---------|-------------|
-| AI Agents | Autonomous assistants that use tools and data |
-| RAG | Ground responses in your enterprise data |
-| Observability | Built-in tracing with Application Insights |
+## What You'll Do
+
+1. **Upload documents** to Azure AI Search with embeddings
+2. **Create an agent** configured with the search tool
+3. **Test interactively** to verify grounded responses

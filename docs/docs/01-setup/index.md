@@ -1,23 +1,34 @@
 # Module 1: Environment Setup
 
-⏱️ **10 minutes** · Deploy Azure resources and configure your environment
+Before building AI solutions, you need a foundation of Azure services that work together. **Infrastructure as Code (IaC)** ensures every participant gets identical, reproducible environments — eliminating "works on my machine" problems and enabling rapid iteration.
 
-## Overview
+## What Gets Deployed
 
-In this module you will:
-
-- Clone the lab repository
-- Deploy Azure infrastructure with `azd up`
-- Set up your Python environment
-
-## Resources Created
+The `azd up` command provisions a complete AI development environment:
 
 | Resource | Purpose |
 |----------|---------|
-| Azure AI Services | Foundry IQ - hosts AI models and agents |
-| Azure AI Search | Vector search for RAG |
-| Storage Account | Document storage |
-| Application Insights | Observability and tracing |
+| **Azure AI Services** | Hosts GPT-4o and embedding models via Foundry IQ |
+| **Azure AI Search** | Vector database for semantic document retrieval |
+| **Storage Account** | Stores documents and agent artifacts |
+| **Application Insights** | Traces agent calls for debugging and monitoring |
+
+## Architecture
+
+```
+┌─────────────────────────────────────────┐
+│           Azure AI Foundry              │
+│  ┌─────────────┐    ┌────────────────┐  │
+│  │   GPT-4o    │    │  Embeddings    │  │
+│  └─────────────┘    └────────────────┘  │
+└─────────────────────────────────────────┘
+         │                    │
+         ▼                    ▼
+┌─────────────────┐   ┌─────────────────┐
+│  AI Search      │   │  Storage        │
+│  (Vector Index) │   │  (Documents)    │
+└─────────────────┘   └─────────────────┘
+```
 
 !!! info "Cost Estimate"
-    This lab costs approximately $5-10 for a few hours of usage. Remember to run cleanup at the end.
+    This lab costs approximately **$5-10** for a few hours. Remember to clean up when done.

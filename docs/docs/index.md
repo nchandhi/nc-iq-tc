@@ -1,39 +1,32 @@
 # Foundry IQ & Fabric IQ Lab
 
-> **⏱️ 50 minutes** · **👥 50-100 participants**
+Build an AI-powered assistant that combines **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
 
-Build an end-to-end AI solution using Microsoft Foundry IQ and Fabric IQ.
+## The Challenge
+
+Organizations struggle to unlock value from data scattered across documents (PDFs, policies, manuals) and structured systems (databases, data warehouses). Traditional search fails to connect these silos, forcing users to manually hunt through multiple systems.
+
+## The Solution
+
+This lab demonstrates how **Foundry IQ** and **Fabric IQ** solve this by creating an intelligent agent that:
+
+- **Understands documents** using RAG (Retrieval-Augmented Generation)
+- **Queries structured data** in Microsoft Fabric using natural language
+- **Combines both** to answer complex business questions
 
 ## What You'll Build
 
-- ✅ Deploy Azure AI Foundry resources using Infrastructure as Code
-- ✅ Create a RAG-enabled AI agent with Foundry IQ
-- ✅ Connect to enterprise data using Fabric IQ
-- ✅ Test and validate your AI solution
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| AI Agent | Azure AI Foundry | Orchestrates tools and generates responses |
+| Document Search | Azure AI Search | Vector + semantic search over documents |
+| Data Queries | Fabric IQ | Natural language to SQL over Fabric |
+| Evaluation | Azure AI Evaluation | Quality and safety testing |
 
 ## Prerequisites
 
 - Azure subscription with Contributor access
 - [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
 - [Python 3.10+](https://www.python.org/downloads/)
-
-## Lab Modules
-
-| Module | Description | Time |
-|--------|-------------|------|
-| [01 Setup](01-setup/index.md) | Deploy Azure resources | 10 min |
-| [02 Foundry IQ](02-foundry-iq/index.md) | Create AI Agent | 15 min |
-| [03 Fabric IQ](03-fabric-iq/index.md) | Connect Data | 10 min |
-| [04 Testing](04-testing/index.md) | Run Evaluations | 10 min |
-| [05 Cleanup](05-cleanup/index.md) | Delete Resources | 5 min |
-
-## Quick Start
-
-```bash
-git clone https://github.com/nchandhi/nc-iq-tc.git
-cd nc-iq-tc
-azd auth login
-azd up
-```
 
 [**Start Lab →**](01-setup/index.md)

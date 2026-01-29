@@ -19,25 +19,19 @@ nav:
   - Home: index.md
   - 01 Setup:
     - Overview: 01-setup/index.md
-    - 1.1 Clone Repository: 01-setup/clone.md
-    - 1.2 Deploy Infrastructure: 01-setup/deploy.md
-    - 1.3 Python Environment: 01-setup/python.md
+    - Deploy Infrastructure: 01-setup/deploy.md
+    - Python Environment: 01-setup/python.md
   - 02 Foundry IQ:
     - Overview: 02-foundry-iq/index.md
-    - 2.1 Upload Documents: 02-foundry-iq/upload.md
-    - 2.2 Create Agent: 02-foundry-iq/agent.md
-    - 2.3 Test Agent: 02-foundry-iq/test.md
+    - Upload & Index Documents: 02-foundry-iq/upload.md
+    - Create & Test Agent: 02-foundry-iq/agent.md
   - 03 Fabric IQ:
     - Overview: 03-fabric-iq/index.md
-    - 3.1 Configure Connection: 03-fabric-iq/configure.md
-    - 3.2 Create Fabric Agent: 03-fabric-iq/agent.md
-    - 3.3 Test Queries: 03-fabric-iq/test.md
-  - 04 Testing:
+    - Connect & Query Data: 03-fabric-iq/connect.md
+  - 04 Evaluations:
     - Overview: 04-testing/index.md
-    - 4.1 Quality Evaluations: 04-testing/quality.md
-    - 4.2 Safety Evaluations: 04-testing/safety.md
-  - 05 Cleanup:
-    - Cleanup: 05-cleanup/index.md
+    - Run Evaluations: 04-testing/run.md
+  - 05 Cleanup: 05-cleanup/index.md
 
 markdown_extensions:
   - admonition

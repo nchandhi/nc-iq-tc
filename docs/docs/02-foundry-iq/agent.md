@@ -1,16 +1,12 @@
-# 2.2 Create Agent
+# Create & Test Agent
 
-Create an AI agent with Azure AI Search integration.
-
-## Run Create Script
+## Create the Agent
 
 ```bash
 python 02_create_agent.py
 ```
 
-## Agent Configuration
-
-The agent is created with:
+The agent is configured with:
 
 | Setting | Value |
 |---------|-------|
@@ -18,17 +14,33 @@ The agent is created with:
 | Tool | Azure AI Search |
 | Query Type | Vector + Semantic Hybrid |
 
-## Expected Output
-
+**Output:**
 ```
 Creating AI Search Agent...
-
 Agent created successfully!
   ID: asst_abc123xyz
   Name: search-agent
-
-Saved AZURE_AGENT_ID to .env
 ```
 
-!!! tip "Agent ID"
-    The agent ID is automatically saved to your `.env` file for use in subsequent scripts.
+## Test Interactively
+
+```bash
+python 03_test_agent.py
+```
+
+**Try these questions:**
+
+```
+You: What products does Contoso offer?
+Agent: Based on the documents, Contoso offers cloud services including 
+       Contoso Cloud Platform, Contoso Data Lake, and Contoso AI Services...
+
+You: What is the return policy?
+Agent: According to the Contoso policies document, products may be 
+       returned within 30 days of purchase...
+
+You: exit
+```
+
+!!! success "Checkpoint"
+    Verify the agent responds with information **from your documents**, not generic knowledge.

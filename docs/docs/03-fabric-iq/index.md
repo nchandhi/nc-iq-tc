@@ -1,21 +1,35 @@
 # Module 3: Fabric IQ - Connect Data
 
-⏱️ **10 minutes** · Connect your AI agent to enterprise data sources
+Documents tell part of the story, but **business decisions require data**. Sales numbers, inventory levels, customer metrics — this structured data lives in databases and warehouses, not PDFs.
 
-## Overview
+**Fabric IQ** bridges this gap by letting your AI agent query Microsoft Fabric using natural language. Users ask "What were Q4 sales?" and the agent translates that to SQL, executes it, and explains the results.
 
-In this module you will:
+## The Power of Combined Intelligence
 
-- Configure Fabric workspace connection
-- Create an agent with Fabric IQ integration
-- Query structured data with natural language
+| Question Type | Source | Example |
+|---------------|--------|---------|
+| Policy/Process | Documents (RAG) | "What's our return policy?" |
+| Metrics/Numbers | Fabric (SQL) | "What's our return rate?" |
+| Combined | Both | "Are we meeting our SLA for returns?" |
 
-## What is Fabric IQ?
+## How It Works
 
-**Fabric IQ** enables AI agents to query structured data in Microsoft Fabric:
+```
+"What were total sales last quarter?"
+     │
+     ▼
+┌─────────────┐     ┌─────────────┐
+│  AI Agent   │────▶│  Fabric IQ  │
+│             │     │  (NL → SQL) │
+└─────────────┘     └─────────────┘
+     │                    │
+     │              ┌─────▼─────┐
+     │              │  OneLake  │
+     │              │  (Data)   │
+     │              └───────────┘
+     ▼
+"Q4 sales totaled $2.4M, up 12% from Q3"
+```
 
-| Feature | Description |
-|---------|-------------|
-| OneLake | Unified data lake for enterprise data |
-| Semantic Models | Business-friendly data definitions |
-| Natural Language | Query data in plain English |
+!!! info "No Fabric Workspace?"
+    If you don't have Fabric access, you can skip this module. The agent will work with document search only.

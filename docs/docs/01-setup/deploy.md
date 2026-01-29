@@ -1,4 +1,11 @@
-# 1.2 Deploy Infrastructure
+# Deploy Infrastructure
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/nchandhi/nc-iq-tc.git
+cd nc-iq-tc
+```
 
 ## Login to Azure
 
@@ -14,16 +21,16 @@ This opens a browser for authentication.
 azd up
 ```
 
-When prompted:
+When prompted, enter:
 
-| Prompt | Value |
-|--------|-------|
+| Prompt | Recommended Value |
+|--------|-------------------|
 | Environment name | `iq-lab-yourname` |
-| Azure subscription | Select your subscription |
+| Azure subscription | Your subscription |
 | Azure location | `eastus2` or `westus2` |
 
-!!! warning "Deployment Time"
-    Deployment takes approximately **5-7 minutes**. Wait for completion before proceeding.
+!!! warning "Wait for Completion"
+    Deployment takes **5-7 minutes**. Don't proceed until you see the success message.
 
 ## Verify Deployment
 
@@ -33,8 +40,4 @@ You should see:
 SUCCESS: Your application was provisioned in Azure.
 ```
 
-## Check Azure Portal
-
-1. Go to [Azure Portal](https://portal.azure.com)
-2. Find resource group `rg-iq-lab-yourname`
-3. Verify resources are created
+Verify in [Azure Portal](https://portal.azure.com) that your resource group contains all resources.

@@ -1,13 +1,11 @@
-# 1.3 Python Environment
+# Python Environment
 
-## Create Virtual Environment
+## Create and Activate Environment
 
 ```bash
 cd scripts
 python -m venv .venv
 ```
-
-## Activate Environment
 
 === "Windows"
     ```bash
@@ -25,15 +23,15 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Verify Installation
+## Verify Setup
 
 ```bash
 python -c "import azure.ai.agents; print('Ready!')"
 ```
 
 !!! success "Checkpoint"
-    Before proceeding, verify:
+    Before proceeding:
     
     - [x] `azd up` completed successfully
-    - [x] Resources visible in Azure Portal
     - [x] Python environment activated
+    - [x] Dependencies installed
