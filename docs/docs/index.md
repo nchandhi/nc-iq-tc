@@ -2,8 +2,9 @@
 hide:
   - navigation
   - toc
-title: ""
 ---
+
+# Introduction
 
 Build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries.
 
