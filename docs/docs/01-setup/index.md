@@ -15,20 +15,4 @@ The `azd up` command provisions a complete AI development environment:
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────┐
-│           Azure AI Foundry              │
-│  ┌─────────────┐    ┌────────────────┐  │
-│  │   GPT-4o    │    │  Embeddings    │  │
-│  └─────────────┘    └────────────────┘  │
-└─────────────────────────────────────────┘
-         │                    │
-         ▼                    ▼
-┌─────────────────┐   ┌─────────────────┐
-│  AI Search      │   │  Storage        │
-│  (Vector Index) │   │  (Documents)    │
-└─────────────────┘   └─────────────────┘
-```
-
-!!! info "Cost Estimate"
-    This lab costs approximately **$5-10** for a few hours. Remember to clean up when done.
+![Architecture Diagram](../images/architecture.png)
