@@ -21,6 +21,7 @@ nav:
     - Overview: 01-setup/index.md
     - Deploy Infrastructure: 01-setup/deploy.md
     - Python Environment: 01-setup/python.md
+    - Generate Sample Data: 01-setup/generate-data.md
   - 02 Foundry IQ:
     - Overview: 02-foundry-iq/index.md
     - Upload & Index Documents: 02-foundry-iq/upload.md
