@@ -7,6 +7,9 @@ theme:
   palette:
     primary: blue
     accent: purple
+  font:
+    text: Inter
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.sections

@@ -2,10 +2,25 @@
   font-size: 0.8rem;
 }
 
-/* Reduce space after h1 */
+/* Body text sizing */
+.md-content {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Headings */
 .md-content h1 {
   margin-top: 0 !important;
   margin-bottom: 0.3em;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.md-content h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
 }
 
 /* Reduce top padding of main content */
@@ -23,8 +38,12 @@
   padding-top: 0 !important;
 }
 
-/* Reduce space around grid cards */
+/* Grid cards */
 .grid.cards {
   margin-top: 0.5em;
   gap: 1.5em;
+}
+
+.grid.cards > ul > li {
+  font-size: 0.85rem;
 }
