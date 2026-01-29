@@ -1,4 +1,9 @@
-!!! abstract "Hands-On Lab"
+---
+hide:
+  - navigation
+  - toc
+title: ""
+---
 
 Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — using knowledge bases, ontology, and natural language queries.
 
