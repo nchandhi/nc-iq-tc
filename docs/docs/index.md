@@ -8,32 +8,24 @@ hide:
 
 Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries. Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly, then customize it for your industry use case.
 
-<div class="grid cards" markdown>
+## The Opportunity
 
--   :material-lightbulb-on:{ .lg .middle } **The Opportunity**
+Organizations have valuable knowledge spread across documents (PDFs, policies, manuals) and structured systems (databases, data warehouses). By connecting these sources through AI, users can get unified answers from a single conversational interface.
 
-    ---
+## The Solution
 
-    Organizations have valuable knowledge that's hard to access:
+**Foundry IQ** and **Fabric IQ** solve this by enabling an intelligent agent that:
 
-    - **Documents** like PDFs, policies, and manuals contain institutional knowledge
-    - **Structured systems** like databases and data warehouses hold business data
-    - **Users need unified answers** from a single conversational interface
+- **Creates knowledge bases** from documents with agentic retrieval (plan, iterate, reflect)
+- **Defines business ontology** to understand entities, relationships, and rules
+- **Queries data** using natural language over both documents and structured data
+- **Combines both** to answer complex business questions
 
--   :material-rocket-launch:{ .lg .middle } **The Solution**
+## Prerequisites
 
-    ---
-
-    **Foundry IQ** and **Fabric IQ** solve this by enabling an intelligent agent that:
-
-    - **Creates knowledge bases** from documents with agentic retrieval (plan, iterate, reflect)
-    - **Defines business ontology** to understand entities, relationships, and rules
-    - **Queries data** using natural language over both documents and structured data
-    - **Combines both** to answer complex business questions
-
-</div>
-
-**Prerequisites:** Azure subscription with Contributor access • [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd) • [Python 3.10+](https://www.python.org/downloads/)
+- Azure subscription with Contributor access
+- [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
+- [Python 3.10+](https://www.python.org/downloads/)
 
 ## Get Started Now
 
