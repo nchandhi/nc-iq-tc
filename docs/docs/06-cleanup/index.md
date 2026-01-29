@@ -1,4 +1,4 @@
-# Module 5: Cleanup
+# Module 6: Cleanup
 
 Delete your Azure resources when you're done to manage costs.
 
@@ -27,7 +27,7 @@ Confirm when prompted:
 
 ## 🎉 Congratulations!
 
-You've completed the Foundry IQ & Fabric IQ Lab!
+You've completed the Solution Accelerators lab!
 
 ### What You Accomplished
 
@@ -35,6 +35,7 @@ You've completed the Foundry IQ & Fabric IQ Lab!
 - ✅ Created a knowledge base with agentic retrieval (Foundry IQ)
 - ✅ Defined business ontology and connected enterprise data (Fabric IQ)
 - ✅ Ran quality and safety evaluations
+- ✅ Deployed a full-stack application with API and frontend
 
 ### Continue Learning
 

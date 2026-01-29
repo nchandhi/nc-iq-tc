@@ -31,6 +31,7 @@ Organizations have valuable knowledge spread across documents (PDFs, policies, m
 | Knowledge Base | Foundry IQ | Agentic retrieval over documents |
 | Business Ontology | Fabric IQ | Entities, relationships, and NL→SQL |
 | Evaluation | Azure AI Evaluation | Quality and safety testing |
+| Full-Stack App | Python + React | API backend and chat frontend |
 
 ## Prerequisites
 

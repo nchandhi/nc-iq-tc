@@ -32,7 +32,10 @@ nav:
   - 04 Evaluations:
     - Overview: 04-testing/index.md
     - Run Evaluations: 04-testing/run.md
-  - 05 Cleanup: 05-cleanup/index.md
+  - 05 Deploy App:
+    - Overview: 05-deploy/index.md
+    - Run the Application: 05-deploy/run.md
+  - 06 Cleanup: 06-cleanup/index.md
 
 markdown_extensions:
   - admonition
