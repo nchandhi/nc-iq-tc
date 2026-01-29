@@ -20,9 +20,9 @@ With an ontology, the AI agent doesn't just translate words to SQL — it unders
 ## The Power of Combined Intelligence
 
 | Question Type | Source | Example |
-|---------------|--------|---------|
-| Policy/Process | Documents (RAG) | "What's our return policy?" |
-| Metrics/Numbers | Fabric (NL→SQL) | "What's our return rate?" |
+|---------------|--------|----------|
+| Policy/Process | Knowledge Base | "What's our return policy?" |
+| Metrics/Numbers | Ontology (NL→SQL) | "What's our return rate?" |
 | Combined | Both | "Are we meeting our SLA for returns?" |
 
 ## How It Works

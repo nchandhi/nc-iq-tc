@@ -32,8 +32,8 @@ You've completed the Foundry IQ & Fabric IQ Lab!
 ### What You Accomplished
 
 - ✅ Deployed Azure AI infrastructure with IaC
-- ✅ Created a RAG-enabled AI agent with Foundry IQ
-- ✅ Connected enterprise data with Fabric IQ
+- ✅ Created a knowledge base with agentic retrieval (Foundry IQ)
+- ✅ Defined business ontology and connected enterprise data (Fabric IQ)
 - ✅ Ran quality and safety evaluations
 
 ### Continue Learning
