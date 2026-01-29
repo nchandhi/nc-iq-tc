@@ -6,7 +6,7 @@ hide:
 
 # Introduction
 
-Build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries.
+Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries.
 
 ## The Opportunity
 
@@ -14,7 +14,7 @@ Organizations have valuable knowledge spread across documents (PDFs, policies, m
 
 ## The Solution
 
-This lab demonstrates how **Foundry IQ** and **Fabric IQ** solve this by creating an intelligent agent that:
+**Foundry IQ** and **Fabric IQ** solve this by enabling an intelligent agent that:
 
 - **Creates knowledge bases** from documents with agentic retrieval (plan, iterate, reflect)
 - **Defines business ontology** to understand entities, relationships, and rules
