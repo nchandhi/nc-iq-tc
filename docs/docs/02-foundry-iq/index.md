@@ -1,35 +1,41 @@
 # Module 2: Foundry IQ - Create AI Agent
 
-Large Language Models excel at reasoning and language, and they perform best when grounded in **your actual data**. **RAG (Retrieval-Augmented Generation)** connects the model to your documents — enabling AI applications that provide accurate, citable answers based on real content.
+Large Language Models excel at reasoning and language, and they perform best when grounded in **your actual data**. **Foundry IQ** is Azure AI Foundry's unified knowledge layer that enables agents to access enterprise knowledge through intelligent retrieval.
 
-**Foundry IQ** is Microsoft's platform for building these intelligent AI applications. It handles:
+## Key Capabilities
 
-- **Tool orchestration** — agents decide when to search, query, or reason
-- **Context management** — conversation history and retrieved content
-- **Enterprise security** — Azure AD, RBAC, and data residency
+| Feature | Description |
+|---------|-------------|
+| **Knowledge Bases** | Automatic indexing and vectorization of your documents |
+| **Agentic Retrieval** | AI-driven search with planning, iteration, and reflection |
+| **Enterprise Security** | Built-in Entra ID authentication and Purview integration |
+| **Multi-format Support** | PDFs, Word, PowerPoint, and unstructured text |
 
-## How It Works
+## How Agentic Retrieval Works
 
 ```
 User Question
      │
      ▼
 ┌─────────────┐     ┌─────────────┐
-│  AI Agent   │────▶│  AI Search  │
-│  (GPT-4o)   │◀────│  (Vectors)  │
+│  AI Agent   │────▶│ Knowledge   │
+│  (GPT-4o)   │◀────│    Base     │
 └─────────────┘     └─────────────┘
-     │
+     │                    │
+     │              Planning &
+     │              Iteration
      ▼
 Grounded Answer + Citations
 ```
 
-1. User asks a question
-2. Agent searches documents using vector similarity
-3. Relevant chunks are passed to GPT-4o as context
-4. Model generates answer grounded in retrieved content
+Unlike simple vector search, **agentic retrieval** enables the agent to:
+
+1. **Plan** — decompose complex questions into sub-queries
+2. **Iterate** — refine searches based on initial results
+3. **Reflect** — evaluate answer quality before responding
 
 ## What You'll Do
 
-1. **Upload documents** to Azure AI Search with embeddings
-2. **Create an agent** configured with the search tool
-3. **Test interactively** to verify grounded responses
+1. **Upload documents** to create a knowledge base with automatic vectorization
+2. **Create an agent** configured with the knowledge base tool
+3. **Test interactively** to verify grounded, citable responses
