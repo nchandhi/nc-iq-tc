@@ -1,62 +1,49 @@
 # Foundry IQ & Fabric IQ Lab
 
-**⏱️ Duration: 50 minutes** | **👥 Audience: 50-100 participants**
+> **⏱️ 50 minutes** · **👥 50-100 participants** · **🎯 Hands-on Workshop**
 
-Build an end-to-end AI solution using Microsoft Foundry IQ and Fabric IQ. This hands-on lab walks you through creating an intelligent agent that leverages enterprise data.
-
----
-
-## 🎯 What You'll Build
-
-By the end of this lab, you will have:
-- Deployed Azure AI Foundry resources using Infrastructure as Code
-- Created a RAG-enabled AI agent with Foundry IQ
-- Connected to enterprise data using Fabric IQ
-- Tested and validated your AI solution
+Build an end-to-end AI solution using Microsoft Foundry IQ and Fabric IQ.
 
 ---
 
-## 📋 Prerequisites
+## What You'll Build
+
+✅ Deploy Azure AI Foundry resources using Infrastructure as Code  
+✅ Create a RAG-enabled AI agent with Foundry IQ  
+✅ Connect to enterprise data using Fabric IQ  
+✅ Test and validate your AI solution  
+
+---
+
+## Prerequisites
 
 - Azure subscription with Contributor access
-- [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd) installed
-- [Python 3.10+](https://www.python.org/downloads/) installed
-- [VS Code](https://code.visualstudio.com/) (recommended)
+- [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
+- [Python 3.10+](https://www.python.org/downloads/)
 
 ---
 
-## 🗂️ Lab Modules
+## Lab Modules
 
-| Module | Title | Duration |
-|--------|-------|----------|
-| 1 | [Environment Setup](01-setup.md) | 10 min |
-| 2 | [Foundry IQ - Create AI Agent](02-foundry-iq.md) | 15 min |
-| 3 | [Fabric IQ - Connect Data](03-fabric-iq.md) | 10 min |
-| 4 | [Integration & Testing](04-integration.md) | 10 min |
-| 5 | [Cleanup](05-cleanup.md) | 5 min |
+| # | Module | Time |
+|---|--------|------|
+| 1 | [Environment Setup](01-setup) | 10 min |
+| 2 | [Foundry IQ - Create AI Agent](02-foundry-iq) | 15 min |
+| 3 | [Fabric IQ - Connect Data](03-fabric-iq) | 10 min |
+| 4 | [Integration & Testing](04-integration) | 10 min |
+| 5 | [Cleanup](05-cleanup) | 5 min |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-# Clone the repository
 git clone https://github.com/nchandhi/nc-iq-tc.git
 cd nc-iq-tc
-
-# Login and deploy
 azd auth login
 azd up
 ```
 
 ---
 
-## 📚 Resources
-
-- [Azure AI Foundry Documentation](https://learn.microsoft.com/azure/ai-studio/)
-- [Microsoft Fabric Documentation](https://learn.microsoft.com/fabric/)
-- [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/)
-
----
-
-**Ready to start?** [Begin with Module 1: Environment Setup →](01-setup.md)
+[**Start Lab →**](01-setup)

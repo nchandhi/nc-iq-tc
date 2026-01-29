@@ -1,8 +1,8 @@
+[← Module 2](02-foundry-iq) · [Home](index) · [Module 4 →](04-integration)
+
 # Module 3: Fabric IQ - Connect Data
 
-**⏱️ Duration: 10 minutes**
-
-In this module, you'll connect your AI agent to enterprise data sources using Fabric IQ.
+⏱️ **10 minutes** · Connect your AI agent to enterprise data sources
 
 ---
 
@@ -103,6 +103,6 @@ Before proceeding, verify:
 
 ---
 
-**Next:** [Module 4: Integration & Testing →](04-integration.md)
+---
 
-[← Back to Module 2](02-foundry-iq.md) | [Back to Home](index.md)
+[← Module 2](02-foundry-iq) · [Home](index) · [**Next: Module 4 →**](04-integration)

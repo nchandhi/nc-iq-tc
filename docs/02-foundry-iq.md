@@ -1,8 +1,8 @@
+[← Module 1](01-setup) · [Home](index) · [Module 3 →](03-fabric-iq)
+
 # Module 2: Foundry IQ - Create AI Agent
 
-**⏱️ Duration: 15 minutes**
-
-In this module, you'll upload documents to Azure AI Search and create an intelligent agent using Foundry IQ.
+⏱️ **15 minutes** · Upload documents and create an intelligent agent
 
 ---
 
@@ -106,6 +106,6 @@ Before proceeding, verify:
 
 ---
 
-**Next:** [Module 3: Fabric IQ - Connect Data →](03-fabric-iq.md)
+---
 
-[← Back to Module 1](01-setup.md) | [Back to Home](index.md)
+[← Module 1](01-setup) · [Home](index) · [**Next: Module 3 →**](03-fabric-iq)

@@ -1,8 +1,8 @@
+[← Module 3](03-fabric-iq) · [Home](index) · [Module 5 →](05-cleanup)
+
 # Module 4: Integration & Testing
 
-**⏱️ Duration: 10 minutes**
-
-In this module, you'll run evaluations to test the quality and safety of your AI agent.
+⏱️ **10 minutes** · Run evaluations to test quality and safety
 
 ---
 
@@ -125,6 +125,6 @@ Before proceeding, verify:
 
 ---
 
-**Next:** [Module 5: Cleanup →](05-cleanup.md)
+---
 
-[← Back to Module 3](03-fabric-iq.md) | [Back to Home](index.md)
+[← Module 3](03-fabric-iq) · [Home](index) · [**Next: Module 5 →**](05-cleanup)

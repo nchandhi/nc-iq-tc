@@ -1,8 +1,8 @@
+[← Home](index) · [Module 2 →](02-foundry-iq)
+
 # Module 1: Environment Setup
 
-**⏱️ Duration: 10 minutes**
-
-In this module, you'll set up your development environment and deploy the required Azure resources.
+⏱️ **10 minutes** · Deploy Azure resources and set up your environment
 
 ---
 
@@ -93,6 +93,6 @@ Before proceeding, verify:
 
 ---
 
-**Next:** [Module 2: Foundry IQ - Create AI Agent →](02-foundry-iq.md)
+---
 
-[← Back to Home](index.md)
+[← Home](index) · [**Next: Module 2 →**](02-foundry-iq)

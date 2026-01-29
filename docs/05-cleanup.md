@@ -1,8 +1,8 @@
+[← Module 4](04-integration) · [Home](index)
+
 # Module 5: Cleanup
 
-**⏱️ Duration: 5 minutes**
-
-In this module, you'll clean up the Azure resources created during the lab.
+⏱️ **5 minutes** · Delete Azure resources to avoid charges
 
 ---
 
@@ -95,4 +95,6 @@ We'd love your feedback on this lab!
 
 **Thank you for participating!** 🚀
 
-[← Back to Module 4](04-integration.md) | [Back to Home](index.md)
+---
+
+[← Module 4](04-integration) · [Home](index)
