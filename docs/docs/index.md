@@ -2,7 +2,6 @@
 hide:
   - navigation
   - toc
-title: ""
 ---
 
 Learn how to build AI applications that combine unstructured document knowledge with structured enterprise data using knowledge bases, ontology, and natural language queries. Solution accelerators provide ready-to-deploy templates to get you from idea to working solution quickly, then customize it for your industry use case.
@@ -20,11 +19,7 @@ Organizations have valuable knowledge spread across documents (PDFs, policies, m
 - **Queries data** using natural language over both documents and structured data
 - **Combines both** to answer complex business questions
 
-## Prerequisites
-
-- Azure subscription with Contributor access
-- [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
-- [Python 3.10+](https://www.python.org/downloads/)
+**Prerequisites:** Azure subscription with Contributor access, [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd), [Python 3.10+](https://www.python.org/downloads/)
 
 ## Get Started Now
 
