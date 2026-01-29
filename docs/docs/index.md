@@ -1,8 +1,4 @@
-# Solution Accelerators in Action: Foundry IQ + Fabric IQ
-
-**Hands-on Lab to Accelerate AI Solution Creation and Customization**
-
----
+# Build Faster with Solution Accelerators – Foundry IQ + Fabric IQ (Hands-On Session)
 
 Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
 
