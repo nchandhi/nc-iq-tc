@@ -1,4 +1,4 @@
-# Foundry IQ & Fabric IQ Lab
+# Solution Accelerators: Foundry IQ & Fabric IQ
 
 Build **AI applications** that combine **unstructured document knowledge** with **structured enterprise data** — enabling natural language queries across your entire data estate.
 
